@@ -10,7 +10,7 @@ public class CaptChaTests {
     public void operatorPattern_1_ShouldBe_Multiplication() {
         CaptCha captcha = new CaptCha(1, 1, 3, 1);
         String operator = captcha.gerOperator();
-        assertEquals("*", operator);
+        assertEquals("/", operator);
     }
 
     @Test
